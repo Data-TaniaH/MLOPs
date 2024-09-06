@@ -38,3 +38,5 @@ y = df_select["test_week_is_positive_reaction"]
 X_train, X_test, y_train, y_test = train_test_split(
     x, y, train_size=0.8, test_size=0.2, random_state=34, stratify=y
 )
+
+print(df.head(5))
